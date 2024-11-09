@@ -25,13 +25,13 @@ fi
 printf "\033c"
 
 echo -e "${GREEN}╭────────────────────────────────────────────────────────────────────────────────╮${NC}"
-echo -e "${GREEN}│   ${BOLD}⚡  WEB | Игровой Хостинг${NC}${GREEN}                                                     │${NC}"
-echo -e "${GREEN}│                                                                                │${NC}"
-echo -e "${GREEN}│   ✅  ${YELLOW}${BOLD}Веб-сервер(Nginx) успешно запущен${GREEN}                                         │${NC}"
-echo -e "${GREEN}│   ✅  ${YELLOW}${BOLD}php-fpm успещно запущен${GREEN}                                                   │${NC}"
-echo -e "${GREEN}│   🌍  ${YELLOW}${BOLD}http://${SERVER_IP}:${SERVER_PORT}${GREEN}                                                    │${NC}"
-echo -e "${GREEN}│                                                                                │${NC}"
-echo -e "${GREEN}│   ${RED}${BOLD}❤️  Qwer-Host |${PURPLE}${BOLD} 2022-2024${NC}${GREEN}                                                     │${NC}"
+echo -e "${GREEN}   ${BOLD}⚡  WEB | Игровой Хостинг${NC}${GREEN}${NC}"
+echo -e "${GREEN}"
+echo -e "${GREEN}   ✅  ${YELLOW}${BOLD}Веб-сервер(Nginx) успешно запущен${GREEN}${NC}"
+echo -e "${GREEN}   ✅  ${YELLOW}${BOLD}php-fpm успещно запущен${GREEN}${NC}"
+echo -e "${GREEN}   🌍  ${YELLOW}${BOLD}http://${SERVER_IP}:${SERVER_PORT}${GREEN}${NC}"
+echo -e "${GREEN}"                                                                                
+echo -e "${GREEN}   ${RED}${BOLD}❤️  Qwer-Host |${PURPLE}${BOLD} 2022-2024${NC}${GREEN}${NC}"
 echo -e "${GREEN}╰────────────────────────────────────────────────────────────────────────────────╯${NC}" 
 
 while true; do
